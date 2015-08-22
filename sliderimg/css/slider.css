@@ -1,0 +1,24 @@
+#wrap-slider{
+    position : relative;
+    overflow: hidden;
+    background: #fff;
+    width :3200px;
+    height: 534px;
+}
+#slider{
+    position: absolute;
+    left :0;
+    top :0;
+}
+#prev-slide,next-slide{
+    position: absolute;
+    top:132px;
+    left:
+}
+.slider-img{
+    width: 800px;
+    height: 534px;
+    display: block;
+    float: left;
+    float: left;
+}

@@ -1,0 +1,128 @@
+.admBoxappBanner300x600{
+    display: block;
+    position: relative;
+    width: 300px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+.admBoxappBanner300x600Manufacturer{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 35px;
+    height: 17px;
+    background: url("//adi.vcmedia.vn/adt/cpc/adsapp/template/300x385/bgManufacturerShort.png") left no-repeat;
+
+}
+
+.admBoxappBanner300x600Ctn.boxapp302612Ctn{
+    display: block;
+    position: relative;
+    height: 600px;
+    width: 300px;
+    background: url("//adi.vcmedia.vn/adt/cpc/adsapp/2014/10/banne-11412462794.jpg") center no-repeat;
+}
+.admBoxappMod2Link{
+    display: block;
+    height: 80px;
+    width: 300px;
+}
+.admBoxappMod2Prs{
+    display: block;
+    height: 245px;
+    margin: 50px 0 0 0;
+    padding-left: 20px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+.admBoxappMod2{
+    display :block;
+    position: relative;
+    width: 300px;
+    height:600px;
+}
+.admBoxappMod2Gallery {
+    display:block;
+    position: relative;
+    width: 280px;
+    height: 180px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+}
+.admBoxappLibPagination{
+    position: relative;
+    overflow: hidden;
+}
+
+.admBoxappMod2Imgs{
+    display:block;
+    width:100%;
+    height:100%;
+}
+.admBoxappLibPaginationItem{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#admBoxappMod2Prev{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 100%;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAATCAYAAAB/TkaLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAUhJREFUeNpi/P//Px8DA8N0IDZjoBycAuJMRqChS6lkINxgkKG3GagMmEjV0NfXJ5yXlyf5+vVrZqoYeurUKc5169bxHzt2jPv48eNcFBt669YttqqqKokfP34wBQYGfvD09PyCSy1RYfr792/GsLAw2cePH7M5ODh86enpeUFRmP79+5exrKxMHGSghobGj7a2tpeE9BB0aWpqqtT58+e5xMTEfi9btuyJgIDAX4pj/9+/f4xg2xkZGZiYmP5TJUnNnDnzmbW19ZeXL1+yZmdnS4HCl2Lvg8CvX78YQ0NDZZ8+fcrm5OT0uaur6yXFiZ+Nje1/d3f3C35+/r/79u3jBUaWCD4XE51O1dTUfgENe8HBwfEPmAEEtm/fzoNLLQspOcrc3Px7QEDAx4cPH7JZWlp+oyhMSQU0K6VOUdlMcHlK9ZIfIMAARAiXdJi9c3AAAAAASUVORK5CYII=") center no-repeat;
+    opacity: 0.5;
+    z-index: 3;
+}
+#admBoxappMod2Prev:hover{
+    opacity: 1;
+}
+#admBoxappMod2Next{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 100%;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAATCAYAAACUef2IAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAUxJREFUeNpi/P//PwMQ8AHxdCA2Y6AcnALiTEaowUupZCjccJjBtxmoDJjwSb569Yo5Ly9Psq+vT5iqBh87dowLiLnXr1/Pf/r0aQ6qGezl5fXF39//4/fv35mqq6sl79y5w0aswQTDGCRfXFwscejQIR45Oblfq1ateszCwvKfIheDbWZkZGhvb3+ppqb249GjR2xlZWXi//79o9zFMPDu3TvmmJgYWWCEshgZGX2bNWvWM4pcDANQ74Nd8efPH0aKgwIEfv/+zZidnS0FdC2rtbX1l5kzZz6jisHAFCF2/fp1Dmlp6V/d3d0vWVlZCUYeCyGXAg0S3rdvHy8/P/9fIPsFGxvbf4rT8datW3nWrVsnwMHB8a+tre0FMGX8IjpO8ElaWVl9Mzc3/6qoqPgLSH8nJecNTCFEDYNPUdncUzCDM6loOLgGAQgwAJFojZXaI7nGAAAAAElFTkSuQmCC") center no-repeat;
+    cursor: pointer;
+    opacity: 0.5;
+    z-index: 3;
+}
+#admBoxappMod2Next:hover{
+    opacity: 1;
+}
+.admBoxappMod2Pr.boxapp302612ModPr{
+    color: #ffffff !important;
+    display: block;
+    height: 50px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.admBoxappMod2PrImg{
+    display: block;
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+.admBoxappMod2PrTitle{
+    display: block;
+    float: left;
+    width: 200px;
+    margin-left: 5px;
+    font: bold 11px/25px Tahoma;
+}
+.admBoxappMod2LinkFt{
+    display: block;
+    height: 45px;
+    width: 100%;
+}
+.admBoxappBanner300x600Manufacturer:hover{
+  color:#4f82ac;
+}

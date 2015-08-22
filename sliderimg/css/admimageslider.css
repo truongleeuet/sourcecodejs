@@ -1,0 +1,83 @@
+/*
+ * Ideal Image Slider v1.4.0
+ *
+ * By Gilbert Pellegrom
+ * http://gilbert.pellegrom.me
+ *
+ * Free to use and abuse under the MIT license.
+ * https://raw.githubusercontent.com/gilbitron/Ideal-Image-Slider/master/LICENSE
+ */
+
+.adm-image-slider {
+	position: relative;
+	overflow: hidden;
+}
+.adm-slide {
+	display: block;
+	bottom: 0;
+	text-decoration: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	text-indent: -9999px;
+}
+
+/* Slide effect */
+.adm-effect-slide .adm-slide {
+	opacity: 0;
+	-webkit-transition-property: -webkit-transform;
+       -moz-transition-property: -moz-transform;
+    	 -o-transition-property: -o-transform;
+    		transition-property: transform;
+	-webkit-transition-timing-function: ease-out;
+       -moz-transition-timing-function: ease-out;
+    	 -o-transition-timing-function: ease-out;
+    		transition-timing-function: ease-out;
+	-webkit-transform: translateX(0%);
+		-ms-transform: translateX(0%);
+			transform: translateX(0%);
+}
+.adm-effect-slide .adm-current-slide {
+	opacity: 1;
+	z-index: 1;
+}
+.adm-effect-slide .adm-previous-slide {
+	-webkit-transform: translateX(-100%);
+		-ms-transform: translateX(-100%);
+    		transform: translateX(-100%);
+}
+.adm-effect-slide .adm-next-slide {
+	-webkit-transform: translateX(100%);
+		-ms-transform: translateX(100%);
+			transform: translateX(100%);
+}
+.adm-effect-slide.adm-direction-next .adm-previous-slide,
+.adm-effect-slide.adm-direction-previous .adm-next-slide { opacity: 1; }
+
+/* Touch styles */
+.adm-touch-enabled .adm-slide { z-index: 1; }
+.adm-touch-enabled .adm-current-slide { z-index: 2; }
+.adm-touch-enabled.adm-is-touching .adm-previous-slide,
+.adm-touch-enabled.adm-is-touching .adm-next-slide { opacity: 1; }
+
+/* Fade effect */
+.adm-effect-fade .adm-slide {
+	-webkit-transition-property: opacity;
+	   -moz-transition-property: opacity;
+		 -o-transition-property: opacity;
+			transition-property: opacity;
+	-webkit-transition-timing-function: ease-in;
+	   -moz-transition-timing-function: ease-in;
+		 -o-transition-timing-function: ease-in;
+			transition-timing-function: ease-in;
+	opacity: 0;
+}
+.adm-effect-fade .adm-current-slide {
+	opacity: 1;
+	z-index: 1;
+}

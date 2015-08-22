@@ -1,0 +1,122 @@
+/*
+ * Ideal Image Slider Default Theme
+ * Version: 1.2.0
+ */
+
+.adm-image-slider {
+	background-color: #fff;
+	background-image: url("../imgs/loading.gif");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 32px 32px;
+}
+
+/* Navigation */
+.adm-previous-nav,
+.adm-next-nav {
+	position: absolute;
+	top: 50%;
+	z-index: 20;
+	display: block;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 50px;
+	background-size: 48px 48px;
+	cursor: pointer;
+	opacity: 0;
+	-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+			transform: translateY(-50%);
+	-webkit-transition: 0.3s ease-out;
+	   -moz-transition: 0.3s ease-out;
+		 -o-transition: 0.3s ease-out;
+			transition: 0.3s ease-out;
+}
+.adm-previous-nav {
+	left: 5%;
+	background-position: 35% 50%;
+	background-image: url("../imgs/back.svg");
+}
+.adm-next-nav {
+	right: 5%;
+	background-position: 65% 50%;
+	background-image: url("../imgs/next.svg");
+}
+.adm-image-slider:hover .adm-previous-nav,
+.adm-image-slider:hover .adm-next-nav { opacity: 0.5; }
+.adm-image-slider:hover .adm-previous-nav:hover,
+.adm-image-slider:hover .adm-next-nav:hover { opacity: 1.0; }
+
+/* Bullet Navigation */
+.adm-bullet-nav {
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+	z-index: 15;
+	width: 90%;
+	text-align: right;
+	opacity: 0.4;
+	-webkit-transition: 0.3s ease-out;
+	   -moz-transition: 0.3s ease-out;
+		 -o-transition: 0.3s ease-out;
+			transition: 0.3s ease-out;
+}
+.adm-has-captions .adm-bullet-nav { max-width: 42%; }
+.adm-bullet-nav a {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: transparent;
+	text-indent: 9999px;
+	margin: 0 5px;
+	border: 3px solid rgba(0,0,0,0.5);
+	border-radius: 10px;
+	cursor: pointer;
+	-webkit-transition: 0.3s ease-out;
+	   -moz-transition: 0.3s ease-out;
+		 -o-transition: 0.3s ease-out;
+			transition: 0.3s ease-out;
+}
+.adm-bullet-nav a.adm-bullet-active,
+.adm-bullet-nav a:hover { background: #fff; }
+.adm-image-slider:hover .adm-bullet-nav { opacity: 0.7; }
+.adm-image-slider:hover .adm-bullet-nav:hover { opacity: 1.0; }
+
+/* Captions */
+.adm-has-captions .adm-slide { text-indent: 0; }
+.adm-caption {
+	position: absolute;
+	left: 5%;
+	bottom: 5%;
+	max-width: 90%;
+	z-index: 10;
+	background: #000;
+	background: rgba(0,0,0,0.5);
+	padding: 5px 15px;
+	border-radius: 10px;
+	font: 14px/1.6em "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.adm-has-bullet-nav .adm-caption { max-width: 42%; }
+.adm-caption .adm-caption-title { font-weight: bold; }
+.adm-caption .adm-caption-content {
+	font-size: 13px;
+	line-height: 1.6em;
+	color: #eee;
+}
+.adm-caption .adm-caption-content a,
+.adm-caption .adm-caption-content a:visited {
+	color: #eee;
+	text-decoration: underline;
+	border: 0;
+}
+.adm-caption .adm-caption-content a:hover,
+.adm-caption .adm-caption-content a:active {
+	color: #fff;
+}

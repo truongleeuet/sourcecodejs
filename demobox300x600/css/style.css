@@ -1,0 +1,190 @@
+body{
+    text-size:18px;
+}
+.admBoxappMod27{
+    width:300px;
+    height: 600px;
+}
+.admBoxappMod27Space1{
+    display: block;
+    height: 38px;
+    font-family: Arial;
+    position:relative;
+    font-weight: bold;
+    line-height: normal;
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #0000CC;
+}
+.admBoxappMod27Box1{
+    width: 280px;
+    height: 316px;
+    display: block;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #1A50A4;
+
+}
+
+.admBoxappMod27Box1ItemLarge{
+    display: block;
+    width: 100%;
+    height: 106px;
+    overflow: hidden;
+    margin: 5px 0 0 0;
+    padding: 0;
+    text-decoration: none;
+    border-width:1px;
+    border-bottom-style: dotted;
+}
+.admBoxappMod27Box1ItemLargeImg{
+    display: block;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+.admBoxappMod27Box1ItemLargeCtn{
+    display: block;
+    float: left;
+    width: 170px;
+    height: 100%;
+    margin-left: 10px;
+}
+.admBoxappMod27Box1ItemLargeTitle{
+    color: #327cd1 !important;
+    display: block;
+    margin-bottom: 5px;
+    font: bold 12px/15px Tahoma;
+}
+.admBoxappMod27Box1ItemLargeSapo{
+    display: block;
+    color: #000;
+    font: normal 13px/17px Tahoma;
+}
+.admBoxappMod27Box1Item{
+    color: #327cd1 !important;
+    display: block;
+    height: 30px;
+    margin: 0 0 0 10px;
+    padding: 0;
+    overflow: hidden;
+    font: bold 11px/30px Tahoma;
+    color: #008F4F;
+    text-decoration: none;
+    white-space: nowrap;
+    border-width:1px;
+    border-bottom-style: dotted;
+}
+.admBoxappMod27Box1Landing{
+    color: #327cd1 !important;
+    display: block;
+    color: #008F4F;
+    font: bold 11px/16px Tahoma;
+    text-decoration: none;
+}#boxapp342778Mod .admBoxappMod27Space2.boxapp342778ModSpace2 {
+     background:#03B012;
+     display: block;
+     height: 38px;
+     font-family: Arial;
+     font-weight: bold;
+     line-height: normal;
+     color: #FFFFFF;
+     text-align: center;
+     vertical-align: middle;
+
+ }
+#boxapp342778Mod .admBoxappMod27Box2.boxapp342778ModBox2 {
+    width: 280px;
+    height: 202px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border: 1px solid #03B012;
+
+}
+
+.admBoxappMod27Box2ItemLarge.boxapp342778ModBox2ItemLarge {
+    display: block;
+    width: 100%;
+    height: 106px;
+    margin-top: 5px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-decoration: none;
+    border-width: 1px;
+    border-bottom-style: dotted;
+    border-color: #03B012;
+}
+ .admBoxappMod27Box2ItemLargeImg.boxapp342778ModBox2ItemLargeImg {
+    width: 100px;
+    height: 100px;
+    display: block;
+    float: left;
+}
+ .admBoxappMod27Box2ItemLargeCtn.boxapp342778ModBox2ItemLargeCtn {
+    width: 170px;
+    height: 100%;
+    margin-left: 10px;
+    float: left;
+}
+.admBoxappMod27Box2Item.boxapp342778ModBox2Item {
+    color: #03B012 !important;
+    display: block;
+    height: 25px;
+    margin-left: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family:Tahoma;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    border-width:1px;
+    border-bottom-style: dotted;
+    list-style-type: disc;
+}
+.admBoxappMod27Box2Landing.boxapp342778ModBox2Landing {
+    color: #03B012 !important;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+
+
+
+.admBoxappMod27Box2ItemLargeTitle.boxapp342778ModBox2ItemLargeTitle {
+    color: #03B012 !important;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 15px;
+}
+ .admBoxappMod27Box2ItemLargeSapo.boxapp342778ModBox2ItemLargeSapo {
+     color: #000;
+    display: block;
+    margin-bottom: 5px;
+}
+.Manufacturer{
+    position:absolute;
+    right:0; top:0;
+    width:28px;
+    height:17px;
+    background: url(//adi.vcmedia.vn/adt/cpc/adsapp/template/300x250/bgManufacturerShort.png) left no-repeat;
+
+}
+a.Manufacturer:hover{
+    width:135px;
+    color:white;
+    font-size: 10px;
+}
+.admBoxappMod27Space1 a{
+
+}

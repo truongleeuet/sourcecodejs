@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<script>
+    // Create the constructor for a Person object
+    // Tạo cấu trúc cho đối tượng Person
+    function Person(name,age,password) {
+        this.name = name;
+        this.age = age;
+        this.password = password;
+    }
+
+    // Thêm phương thức mới cho đối tượng Person
+    Person.prototype.getName = function () {
+        return this.name;
+    };
+    Person.prototype.getPassword = function () {
+        return this.password;
+    };
+    Person.prototype.getLevel = function () {
+        return this.level;
+    };
+    Person.prototype.getAge = function () {
+        return this.age;
+    };
+
+    // Thêm thuộc tính cho đối tượng Person
+    Person.prototype.level = 'admin';
+
+    // Tạo cấu trúc cho đối tượng User
+    function User(name) {
+        // Tạo thuộc tính cho User
+        this.name = name;
+    };
+
+    // Đối tượng User thừa kế tất cả các phương thức,
+    // thuộc tính của đối tượng Person được tạo thông qua prototype
+    User.prototype = new Person();
+
+    // Tạo đối tượng
+    var person = new Person('Ti','15', '789');
+    var user = new User('Teo','16', '123456');
+
+    alert(user.getName()); // Teo
+    alert(user.getLevel()); // admin
+    alert(user.getPassword()); // Chưa định nghĩa(undefined)
+    alert(person.getName()); // Ti
+    alert(user.getAge()); // Chưa định nghĩa(undefined)
+    alert(person.getAge()); // Ti
+    alert(person.getPassword());
+</script>
+</body>
+</html>
